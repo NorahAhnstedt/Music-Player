@@ -97,7 +97,7 @@ To learn more about how each aspect works together look at the Python script cal
 
 ### **Website used to convert and download .mp3 files**
 FreeMP3Music - https://freemp3music.org/
-MP3 juice - https://gugsfm.co.za/](https://emp3juice.la/)
+MP3 juice - https://emp3juice.la/
 
 #### **.mp3 files used for project**
 - Endor - Pump It Up (official video)
