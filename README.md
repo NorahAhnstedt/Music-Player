@@ -1,4 +1,4 @@
-# **Music Control System with Mobile Robot**
+# **Music Control System with RPG Lights**
 
 ## **About The Project**
 This project combines Python Programming and a Raspberry Pi to create a music control system that can be displayed through an application. The PI is equipped with RPG lights, which change color when the music is playing. Users can interact with the music control interface directly, using SSH to access the Pi remotely. The goal of this project is to provide an enjoyable experience for users.
