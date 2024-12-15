@@ -22,7 +22,29 @@ Key features include:
 
 ## **How to Wire** 
 ### **LED Light Circuit**
-[ ] add here 
+ <img width="637" alt="Ciruit wiring" src="https://github.com/user-attachments/assets/9923f37c-0d17-41bf-87ad-cce3942c80ba" />
+ This is an example circuit created through Tinkercad, because it doesn't have a GPIO board option I used an Arduino Uno which is very similar. 
+To create a circuit that does the same thing using a GPIO pin:
+1. RGB LED 1 
+   a. Red: GPIO 19
+   b. Green: GPIO 13
+   c. Blue: GPIO 6
+   d. Cathode/Anode: GND and RGB LED 2's Cathode/Anode
+2. RGB LED 2
+   a. Red: GPIO 16
+   b. Green: GPIO 20
+   c. Blue: GPIO 21
+   d. Cathode/Anode: RGB LED 3's Cathode/Anode
+3. RGB LED 3 
+   a. Red: GPIO 19
+   b. Green: GPIO 13
+   c. Blue: GPIO 6
+   d. Cathode/Anode: RGB LED 4's Cathode/Anode
+4. RGB LED 4
+   a. Red: GPIO 16
+   b. Green: GPIO 20
+   c. Blue: GPIO 21
+   d. Cathode/Anode: GND
 
 ## **How to Run the Program** 
 1. **Setup Raspberry Pi.** Install the required libraries:
@@ -78,6 +100,7 @@ To learn more about how each aspect works together look at the Python script cal
 ### **Using RPG LED strips** 
 - Simple Guide to RGP LED's - https://www.build-electronic-circuits.com/rgb-led/#:~:text=Common%20Anode%20RGB%20LED,side%20of%20a%20power%20supply.
 - Controlling RGB led using Raspberry pi - https://digitalab.org/2022/09/controlling-rgb-led-using-raspberry-pi/
+- Tinkercad dashboard - https://www.tinkercad.com/dashboard
 - RGB color picker - https://rgbcolorpicker.com/
 
 ### **Website used to convert and download .mp3 files**
