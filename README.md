@@ -21,9 +21,11 @@ Key features include:
 -  Python libraries: Pygame, RPi.GPIO, time module, glob module, and random module
 
 # LED Light Circuit Wiring (Using GPIO Pins)
-<img width="637" alt="Ciruit wiring" src="https://github.com/user-attachments/assets/b9e18b6a-9eae-45c6-84f6-a8f4b52c179a" />
+<p align="center">
+<img src="https://github.com/user-attachments/assets/b9e18b6a-9eae-45c6-84f6-a8f4b52c179a" width="400" />
+</p>
 
-## Above is a circuit created through Tinkercad using an Arduino Uno which is very similar to a breadboard equipped with GPIO pins. The circuit uses **RGB LEDs** controlled via GPIO pins on the Raspberry Pi. The following steps detail how to connect each RGB LED and their respective GPIO pins.
+Above is a circuit created through Tinkercad using an Arduino Uno which is very similar to a breadboard equipped with GPIO pins. The circuit uses RGB LEDs controlled via GPIO pins on the Raspberry Pi. The following steps detail how to connect each RGB LED and their respective GPIO pins.
 
 ## RGB LED 1:
 - **Red**: GPIO 19
