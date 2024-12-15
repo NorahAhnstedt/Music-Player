@@ -20,31 +20,38 @@ Key features include:
 -  Computer capable of SSH access
 -  Python libraries: Pygame, RPi.GPIO, time module, glob module, and random module
 
-## **How to Wire** 
-### **LED Light Circuit**
- <img width="637" alt="Ciruit wiring" src="https://github.com/user-attachments/assets/9923f37c-0d17-41bf-87ad-cce3942c80ba" />
- This is an example circuit created through Tinkercad, because it doesn't have a GPIO board option I used an Arduino Uno which is very similar. 
-To create a circuit that does the same thing using a GPIO pin:
-1. RGB LED 1 
-   a. Red: GPIO 19
-   b. Green: GPIO 13
-   c. Blue: GPIO 6
-   d. Cathode/Anode: GND and RGB LED 2's Cathode/Anode
-2. RGB LED 2
-   a. Red: GPIO 16
-   b. Green: GPIO 20
-   c. Blue: GPIO 21
-   d. Cathode/Anode: RGB LED 3's Cathode/Anode
-3. RGB LED 3 
-   a. Red: GPIO 19
-   b. Green: GPIO 13
-   c. Blue: GPIO 6
-   d. Cathode/Anode: RGB LED 4's Cathode/Anode
-4. RGB LED 4
-   a. Red: GPIO 16
-   b. Green: GPIO 20
-   c. Blue: GPIO 21
-   d. Cathode/Anode: GND
+# LED Light Circuit Wiring (Using GPIO Pins)
+<img width="637" alt="Ciruit wiring" src="https://github.com/user-attachments/assets/b9e18b6a-9eae-45c6-84f6-a8f4b52c179a" />
+
+## Above is a circuit created through Tinkercad using an Arduino Uno which is very similar to a breadboard equipped with GPIO pins. The circuit uses **RGB LEDs** controlled via GPIO pins on the Raspberry Pi. The following steps detail how to connect each RGB LED and their respective GPIO pins.
+
+## RGB LED 1:
+- **Red**: GPIO 19
+- **Green**: GPIO 13
+- **Blue**: GPIO 6
+- **Cathode/Anode**: Connect to **GND**.
+
+## RGB LED 2:
+- **Red**: GPIO 16
+- **Green**: GPIO 20
+- **Blue**: GPIO 21
+- **Cathode/Anode**: Connect to **RGB LED 3's Cathode/Anode**.
+
+## RGB LED 3:
+- **Red**: GPIO 19
+- **Green**: GPIO 13
+- **Blue**: GPIO 6
+- **Cathode/Anode**: Connect to **RGB LED 4's Cathode/Anode**.
+
+## RGB LED 4:
+- **Red**: GPIO 16
+- **Green**: GPIO 20
+- **Blue**: GPIO 21
+- **Cathode/Anode**: Connect to **GND**.
+
+---
+
+This setup mimics the circuit  from Tinkercad but is adapted for the Raspberry Pi GPIO pins.
 
 ## **How to Run the Program** 
 1. **Setup Raspberry Pi.** Install the required libraries:
